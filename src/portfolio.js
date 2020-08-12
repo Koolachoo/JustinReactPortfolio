@@ -10,7 +10,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Justin Taylor",
-  title: "Justin Taylor, a fresh on the block FullStack Developer",
+  title: "Justin Taylor, skilled FullStack Developer",
   subTitle: ("A Web Developer with experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks like Bootstrap."),
   resumeLink: "https://docs.google.com/document/d/1JMVaYkVYbVSqjBkNkTZ3eYNPtUk4C3OhVWROpbKZME0/edit?usp=sharing"
 };
@@ -102,7 +102,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
@@ -227,7 +227,7 @@ const homeworkSection = {
   homeworkCards: [
     {
       title: "Google Book Search",
-      subtitle: "Google API based website to find books for purchase and viweing pleasure",
+      subtitle: "Google API based website to find books for purchase and viewing pleasure",
       image: require("./assets/images/cat.jpg"),
       footerLink: [
         { name: "URL", url: "https://googlebookssearching.herokuapp.com/" },
@@ -236,7 +236,7 @@ const homeworkSection = {
     },
     {
       title: "MedianCOL",
-      subtitle: "Google API based website to find books for purchase and viweing pleasure",
+      subtitle: "React based site created for web and mobile developers to compare the cost of living in two cities",
       image: require("./assets/images/MedianCol.png"),
       footerLink: [
         { name: "URL", url: "https://livingcity.herokuapp.com" },
