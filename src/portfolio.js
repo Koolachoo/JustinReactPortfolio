@@ -228,7 +228,7 @@ const homeworkSection = {
     {
       title: "Google Book Search",
       subtitle: "Google API based website to find books for purchase and viewing pleasure",
-      image: require("./assets/images/cat.jpg"),
+      image: require("./assets/images/lib.jpeg"),
       footerLink: [
         { name: "URL", url: "https://googlebookssearching.herokuapp.com/" },
         { name: "Git Repo", url: "https://github.com/Koolachoo/HW-Google-Books-Search" }
